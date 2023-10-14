@@ -1,0 +1,24 @@
+{
+  "name": "elevenlabs",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "dependencies": {
+    "dotenv": "^16.3.1",
+    "elevenlabs-node": "^1.2.0",
+    "langchain": "^0.0.165",
+    "mic": "^2.1.2",
+    "openai": "^4.12.1",
+    "play-sound": "^1.1.6",
+    "sound-play": "^1.1.0",
+    "stream": "^0.0.2",
+    "wav": "^1.0.2"
+  }
+}
