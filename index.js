@@ -12,7 +12,7 @@ import dotenv from 'dotenv';
 dotenv.config();
 
 const openai = new OpenAI({
-    apiKey: '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'
+    apiKey: process.env.OPENAI_API_KEY
 });
 const keyword = 'luna';
 
